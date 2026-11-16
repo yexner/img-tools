@@ -1,0 +1,16 @@
+/* The serif face is only used by the tools that draw text (social preview, meme, text on image), so it is
+   loaded with them and not with every page. */
+@font-face {
+  font-family: 'Source Serif 4';
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Source Serif 4';
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-700-normal.woff2')
+    format('woff2');
+}

@@ -1,0 +1,24 @@
+// Shell icons, imported individually so only these end up in the bundle.
+export { default as menu } from '@tabler/icons/outline/menu-2.svg?raw';
+export { default as home } from '@tabler/icons/outline/home.svg?raw';
+export { default as search } from '@tabler/icons/outline/search.svg?raw';
+export { default as github } from '@tabler/icons/outline/brand-github.svg?raw';
+export { default as info } from '@tabler/icons/outline/info-circle.svg?raw';
+export { default as theme } from '@tabler/icons/outline/sun-moon.svg?raw';
+export { default as chevronDown } from '@tabler/icons/outline/chevron-down.svg?raw';
+export { default as chevronRight } from '@tabler/icons/outline/chevron-right.svg?raw';
+export { default as pin } from '@tabler/icons/outline/pin.svg?raw';
+export { default as pinned } from '@tabler/icons/outline/pinned.svg?raw';
+export { default as close } from '@tabler/icons/outline/x.svg?raw';
+export { default as laptopCheck } from '@tabler/icons/outline/device-desktop-check.svg?raw';
+export { default as upload } from '@tabler/icons/outline/upload.svg?raw';
+export { default as download } from '@tabler/icons/outline/download.svg?raw';
+export { default as zip } from '@tabler/icons/outline/file-zip.svg?raw';
+export { default as trash } from '@tabler/icons/outline/trash.svg?raw';
+export { default as warning } from '@tabler/icons/outline/alert-triangle.svg?raw';
+export { default as arrowUp } from '@tabler/icons/outline/arrow-up.svg?raw';
+export { default as arrowDown } from '@tabler/icons/outline/arrow-down.svg?raw';
+export { default as rotateLeft } from '@tabler/icons/outline/rotate-2.svg?raw';
+export { default as rotateRight } from '@tabler/icons/outline/rotate-clockwise-2.svg?raw';
+export { default as flipH } from '@tabler/icons/outline/flip-horizontal.svg?raw';
+export { default as flipV } from '@tabler/icons/outline/flip-vertical.svg?raw';

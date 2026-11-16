@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with an editor (https://example.com/editor) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="120" height="80" viewBox="0 0 120 80" version="1.1" id="svg1">
+  <sodipodi:namedview id="namedview1" pagecolor="#ffffff" inkscape:zoom="4.1234567" />
+  <metadata id="metadata1">editor data that is not needed</metadata>
+  <defs id="defs1" />
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+    <rect id="rect1" x="10.123456" y="10.654321" width="100.000001" height="60.5" fill="#ff0000" stroke="none" />
+    <circle id="circle1" cx="60.000000" cy="40.000000" r="20.123456" fill="#0000ff" />
+  </g>
+</svg>

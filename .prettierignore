@@ -1,0 +1,11 @@
+build
+.svelte-kit
+node_modules
+package-lock.json
+THIRD_PARTY_NOTICES.md
+tests/fixtures
+docs
+CONTRIBUTING.md
+README.md
+.claude/
+src/routes/datenschutz/e-recht24.html

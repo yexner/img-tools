@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found · IMG-TOOLS</title>
+    <style>
+      body {
+        font:
+          16px/1.5 system-ui,
+          sans-serif;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        background: #f2f4f7;
+        color: #141a22;
+      }
+      a {
+        color: #2f45d8;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Page not found</h1>
+      <p>This page does not exist. <a id="home" href="./">Go to the home page</a>.</p>
+    </main>
+    <script>
+      // GitHub Pages serves this page for every unknown URL. On a project site (name.github.io/repo/) the
+      // home page is the first path segment; on a custom domain it is the root.
+      var home = document.getElementById('home');
+      var first = location.pathname.split('/')[1];
+      home.href =
+        /\.github\.io$/.test(location.hostname) && first && /^[\w.-]+$/.test(first)
+          ? '/' + first + '/'
+          : '/';
+    </script>
+  </body>
+</html>
